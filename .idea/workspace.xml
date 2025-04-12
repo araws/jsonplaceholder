@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e2edaf-7d62-4e9c-bb18-3bf7dca722cb" name="Changes" comment="Created test for read users with path variable and query params">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderGETTwoTest.java" afterDir="false" />
+    <list default="true" id="c5e2edaf-7d62-4e9c-bb18-3bf7dca722cb" name="Changes" comment="Created tests with .then() method">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderPOSTTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JsonplaceholderGETTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderGETTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonplaceholderGETTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JsonplaceholderGETTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,22 +55,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JsonplaceholderGETTwoTest">
+  <component name="RunManager" selected="JUnit.JsonplaceholderPOSTTest.jsonplaceholderCreateNewUser">
     <configuration name="JsonplaceholderGETTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JsonPlaceholderCrudDemo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTwoTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonplaceholderGETTwoTest.jsonplaceholderReadAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JsonPlaceholderCrudDemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTwoTest" />
-      <option name="METHOD_NAME" value="jsonplaceholderReadAllUsers" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,13 +95,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JsonplaceholderPOSTTest.jsonplaceholderCreateNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JsonPlaceholderCrudDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonplaceholderPOSTTest" />
+      <option name="METHOD_NAME" value="jsonplaceholderCreateNewUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonplaceholderPOSTTest.jsonplaceholderCreateNewUser" />
         <item itemvalue="JUnit.JsonplaceholderGETTwoTest" />
         <item itemvalue="JUnit.JsonplaceholderGETTwoTest.jsonplaceholderReadUsersWithQueryParams" />
         <item itemvalue="JUnit.JsonplaceholderGETTwoTest.jsonplaceholderReadOneUserWithPathVariable" />
         <item itemvalue="JUnit.JsonplaceholderGETTwoTest.jsonplaceholderReadOneUser" />
-        <item itemvalue="JUnit.JsonplaceholderGETTwoTest.jsonplaceholderReadAllUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -154,13 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1744446881060</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created tests with .then() method">
+      <created>1744447916863</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744447916863</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit and first test" />
     <MESSAGE value="Created test for read one user" />
     <MESSAGE value="Created test for read users with path variable and query params" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created test for read users with path variable and query params" />
+    <MESSAGE value="Created tests with .then() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created tests with .then() method" />
   </component>
 </project>

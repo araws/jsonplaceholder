@@ -7,3 +7,5 @@ K
 JsonPlaceholderCrudDemo.iml,b\e\be5be74f27f6f56eab909a8f7bf20ece43ff99ff
 \
 ,src/test/java/JsonplaceholderGETTwoTest.java,3\f\3f5073388145a1185ecd1639d123796c043ec514
+Z
+*src/test/java/JsonplaceholderPOSTTest.java,4\7\4748f3ecacc567c31941a5417ce64358ebe12836
