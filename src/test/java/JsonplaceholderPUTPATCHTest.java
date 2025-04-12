@@ -5,15 +5,15 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class JsonplaceholderPOSTTest {
-    
+class JsonplaceholderPUTPATCHTest {
+
     @Test
-    void jsonplaceholderCreateNewUser(){
+    void jsonplaceholderUpdateUserPUTTest(){
         String jsonBody = """
                 {
-                    "name": "Andrzej Testowy",
-                    "username": "Andrzej",
-                    "email": "andrzej@arit.pl",
+                    "name": "Andrzej Update PUT",
+                    "username": "AndrzejPUT",
+                    "email": "andrzejPUT@arit.pl",
                     "address": {
                         "street": "Kulas Light",
                         "suite": "Apt. 556",
@@ -37,16 +37,37 @@ class JsonplaceholderPOSTTest {
                 .contentType("application/json")
                 .body(jsonBody)
                 .when()
-                .post("https://jsonplaceholder.typicode.com/users")
+                .put("https://jsonplaceholder.typicode.com/users/1")
                 .then()
-                .statusCode(201)
+                .statusCode(200)
                 .extract()
                 .response();
 
         JsonPath json = response.jsonPath();
 
-        assertEquals("Andrzej Testowy", json.get("name"));
-        assertEquals("Andrzej", json.get("username"));
-        assertEquals("andrzej@arit.pl", json.get("email"));
+        assertEquals("Andrzej Update PUT", json.get("name"));
+        assertEquals("AndrzejPUT", json.get("username"));
+        assertEquals("andrzejPUT@arit.pl", json.get("email"));
+    }
+
+    @Test
+    void jsonplaceholderUpdateUserPATCHTest(){
+        String jsonBody = """
+                {
+                    "email": "andrzejPATCH@arit.pl"
+                }""";
+
+        Response response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .patch("https://jsonplaceholder.typicode.com/users/1")
+                .then()
+                .statusCode(200)
+                .extract()
+                .response();
+
+        JsonPath json = response.jsonPath();
+        assertEquals("andrzejPATCH@arit.pl", json.get("email"));
     }
 }

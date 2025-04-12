@@ -9,3 +9,5 @@ K
 ,src/test/java/JsonplaceholderGETTwoTest.java,3\f\3f5073388145a1185ecd1639d123796c043ec514
 Z
 *src/test/java/JsonplaceholderPOSTTest.java,4\7\4748f3ecacc567c31941a5417ce64358ebe12836
+^
+.src/test/java/JsonplaceholderPUTPATCHTest.java,d\8\d8706490971cb807a8d31ca04ce1ab2358d255d4
