@@ -63,22 +63,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JsonplaceholderPostsPOSTTest.jsonplaceholderCreateNewPost">
+  <component name="RunManager" selected="JUnit.JsonplaceholderPostsDELETETest.jsonplaceholderDeletePost">
+    <configuration name="JsonplaceholderPostsDELETETest.jsonplaceholderDeletePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JsonPlaceholderCrudDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonplaceholderPostsDELETETest" />
+      <option name="METHOD_NAME" value="jsonplaceholderDeletePost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JsonplaceholderPostsGETTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JsonPlaceholderCrudDemo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JsonplaceholderPostsGETTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonplaceholderPostsGETTest.jsonplaceholderReadOneUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JsonPlaceholderCrudDemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonplaceholderPostsGETTest" />
-      <option name="METHOD_NAME" value="jsonplaceholderReadOneUser" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonplaceholderPostsDELETETest.jsonplaceholderDeletePost" />
         <item itemvalue="JUnit.JsonplaceholderPostsPOSTTest.jsonplaceholderCreateNewPost" />
         <item itemvalue="JUnit.JsonplaceholderPostsGETTest" />
         <item itemvalue="JUnit.JsonplaceholderPostsGETTest.jsonplaceholderReadUsersWithQueryParams" />
         <item itemvalue="JUnit.JsonplaceholderPostsGETTest.jsonplaceholderReadOneUserWithPathVariable" />
-        <item itemvalue="JUnit.JsonplaceholderPostsGETTest.jsonplaceholderReadOneUser" />
       </list>
     </recent_temporary>
   </component>
