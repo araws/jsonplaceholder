@@ -13,7 +13,7 @@ class JsonplaceholderPostsGETTest {
     private final String POSTS = "posts";
 
     @Test
-    void jsonplaceholderReadAllUsers(){
+    void jsonplaceholderReadAllPosts(){
         Response response = given()
                 .when()
                 .get(BASE_URL + "/" + POSTS)
@@ -28,7 +28,7 @@ class JsonplaceholderPostsGETTest {
     }
 
     @Test
-    void jsonplaceholderReadOneUser(){
+    void jsonplaceholderReadOnePost(){
         Response response = given()
                 .when()
                 .get(BASE_URL + "/" + POSTS + "/1")
@@ -51,7 +51,7 @@ class JsonplaceholderPostsGETTest {
     // PATH VARIABLES
 
     @Test
-    void jsonplaceholderReadOneUserWithPathVariable(){
+    void jsonplaceholderReadOnePostWithPathVariable(){
         Response response = given()
                 .pathParam("id", 1)
                 .when()
@@ -74,7 +74,7 @@ class JsonplaceholderPostsGETTest {
     // QUERY PARAMS
 
     @Test
-    void jsonplaceholderReadUsersWithQueryParams(){
+    void jsonplaceholderReadPostsWithQueryParams(){
         Response response = given()
                 .queryParam("title", "qui est esse")
                 .when()
