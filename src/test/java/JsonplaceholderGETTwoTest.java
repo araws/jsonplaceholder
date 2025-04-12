@@ -7,27 +7,35 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
-class JsonplaceholderGETTest {
+class JsonplaceholderGETTwoTest {
+
+    private final String BASE_URL = "https://jsonplaceholder.typicode.com";
+    private final String USERS = "users";
 
     @Test
     void jsonplaceholderReadAllUsers(){
         Response response = given()
                 .when()
-                .get("https://jsonplaceholder.typicode.com/users");
-
-        Assertions.assertEquals(200, response.statusCode());
+                .get(BASE_URL + "/" + USERS)
+                .then()
+                .statusCode(200)
+                .extract()
+                .response();
 
         JsonPath json = response.jsonPath();
         List<String> names = json.getList("name");
         Assertions.assertEquals(10, names.size());
-
     }
 
     @Test
     void jsonplaceholderReadOneUser(){
         Response response = given()
                 .when()
-                .get("https://jsonplaceholder.typicode.com/users/1");
+                .get(BASE_URL + "/" + USERS + "/1")
+                .then()
+                .statusCode(200)
+                .extract()
+                .response();
 
         JsonPath json = response.jsonPath();
 
@@ -44,7 +52,10 @@ class JsonplaceholderGETTest {
         Response response = given()
                 .pathParam("userId", 1)
                 .when()
-                .get("https://jsonplaceholder.typicode.com/users/{userId}");
+                .get(BASE_URL + "/" + USERS + "/{userId}")
+                .then()
+                .extract()
+                .response();
 
         JsonPath json = response.jsonPath();
 
@@ -61,7 +72,10 @@ class JsonplaceholderGETTest {
         Response response = given()
                 .queryParam("username", "Bret")
                 .when()
-                .get("https://jsonplaceholder.typicode.com/users/");
+                .get(BASE_URL + "/" + USERS)
+                .then()
+                .extract()
+                .response();
 
         JsonPath json = response.jsonPath();
 

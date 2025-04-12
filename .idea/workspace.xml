@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e2edaf-7d62-4e9c-bb18-3bf7dca722cb" name="Changes" comment="Created test for read one user">
+    <list default="true" id="c5e2edaf-7d62-4e9c-bb18-3bf7dca722cb" name="Changes" comment="Created test for read users with path variable and query params">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderGETTwoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JsonplaceholderGETTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderGETTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/JsonplaceholderGETTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JsonplaceholderGETTest.class" afterDir="false" />
@@ -23,9 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="2102a3d0-d57a-4fca-a942-87625bceb757" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,51 +52,55 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.JsonplaceholderGETTest.jsonplaceholderReadUsersWithQueryParams">
-    <configuration name="JsonplaceholderGETTest.jsonplaceholderReadAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.JsonplaceholderGETTwoTest">
+    <configuration name="JsonplaceholderGETTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JsonPlaceholderCrudDemo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTest" />
+      <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTwoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonplaceholderGETTwoTest.jsonplaceholderReadAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JsonPlaceholderCrudDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTwoTest" />
       <option name="METHOD_NAME" value="jsonplaceholderReadAllUsers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonplaceholderGETTest.jsonplaceholderReadOneUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonplaceholderGETTwoTest.jsonplaceholderReadOneUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JsonPlaceholderCrudDemo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTest" />
+      <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTwoTest" />
       <option name="METHOD_NAME" value="jsonplaceholderReadOneUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonplaceholderGETTest.jsonplaceholderReadOneUserWithPathVariable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonplaceholderGETTwoTest.jsonplaceholderReadOneUserWithPathVariable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JsonPlaceholderCrudDemo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTest" />
+      <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTwoTest" />
       <option name="METHOD_NAME" value="jsonplaceholderReadOneUserWithPathVariable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonplaceholderGETTest.jsonplaceholderReadOneUserWithQueryParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonplaceholderGETTwoTest.jsonplaceholderReadUsersWithQueryParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JsonPlaceholderCrudDemo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTest" />
-      <option name="METHOD_NAME" value="jsonplaceholderReadOneUserWithQueryParams" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonplaceholderGETTest.jsonplaceholderReadUsersWithQueryParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JsonPlaceholderCrudDemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTest" />
+      <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTwoTest" />
       <option name="METHOD_NAME" value="jsonplaceholderReadUsersWithQueryParams" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -105,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JsonplaceholderGETTest.jsonplaceholderReadUsersWithQueryParams" />
-        <item itemvalue="JUnit.JsonplaceholderGETTest.jsonplaceholderReadOneUserWithQueryParams" />
-        <item itemvalue="JUnit.JsonplaceholderGETTest.jsonplaceholderReadOneUserWithPathVariable" />
-        <item itemvalue="JUnit.JsonplaceholderGETTest.jsonplaceholderReadAllUsers" />
-        <item itemvalue="JUnit.JsonplaceholderGETTest.jsonplaceholderReadOneUser" />
+        <item itemvalue="JUnit.JsonplaceholderGETTwoTest" />
+        <item itemvalue="JUnit.JsonplaceholderGETTwoTest.jsonplaceholderReadUsersWithQueryParams" />
+        <item itemvalue="JUnit.JsonplaceholderGETTwoTest.jsonplaceholderReadOneUserWithPathVariable" />
+        <item itemvalue="JUnit.JsonplaceholderGETTwoTest.jsonplaceholderReadOneUser" />
+        <item itemvalue="JUnit.JsonplaceholderGETTwoTest.jsonplaceholderReadAllUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -143,12 +147,20 @@
       <option name="project" value="LOCAL" />
       <updated>1744446109615</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created test for read users with path variable and query params">
+      <created>1744446881060</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744446881060</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit and first test" />
     <MESSAGE value="Created test for read one user" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created test for read one user" />
+    <MESSAGE value="Created test for read users with path variable and query params" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created test for read users with path variable and query params" />
   </component>
 </project>
