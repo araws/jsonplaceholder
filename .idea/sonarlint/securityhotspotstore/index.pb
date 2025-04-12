@@ -15,3 +15,11 @@ Z
 ,src/test/java/JsonplaceholderDELETETest.java,0\a\0a1ddb668f964acdb80f27f345e2cb639c527472
 `
 0src/test/java/JsonplaceholderDELETETestTest.java,e\d\ed81ae487e1a348ce17642e071ac6c00e8f5d16d
+a
+1src/test/java/JsonplaceholderPostsDELETETest.java,d\4\d465d3f5b6be32947ec26ca7592686ac50a8ea2f
+^
+.src/test/java/JsonplaceholderPostsGETTest.java,8\7\87d1dfafc0ed66a1e91eff52337fcd0dc56f832c
+_
+/src/test/java/JsonplaceholderPostsPOSTTest.java,7\5\75763f92f965f7c052e35a97635cf4d41161bee3
+c
+3src/test/java/JsonplaceholderPostsPUTPATCHTest.java,8\8\885c89f3d79294876f10348c416bd6f51c1add5f
