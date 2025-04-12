@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e2edaf-7d62-4e9c-bb18-3bf7dca722cb" name="Changes" comment="Initial commit and first test">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JsonplaceholderGETTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderGETTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/arit/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonplaceholderGETTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JsonplaceholderGETTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "G:/Java projects/JsonPlaceholderCrudDemo",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Java projects/JsonPlaceholderCrudDemo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="JUnit.JsonplaceholderGETTest.jsonplaceholderReadAllUsers">
     <configuration name="JsonplaceholderGETTest.jsonplaceholderReadAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JsonPlaceholderCrudDemo" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,9 +64,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JsonplaceholderGETTest.jsonplaceholderReadOneUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JsonPlaceholderCrudDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonplaceholderGETTest" />
+      <option name="METHOD_NAME" value="jsonplaceholderReadOneUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.JsonplaceholderGETTest.jsonplaceholderReadAllUsers" />
+        <item itemvalue="JUnit.JsonplaceholderGETTest.jsonplaceholderReadOneUser" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744098051976</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit and first test">
+      <created>1744185908636</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744185908636</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
