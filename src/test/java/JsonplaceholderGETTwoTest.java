@@ -85,4 +85,27 @@ class JsonplaceholderGETTwoTest {
         Assertions.assertEquals("Sincere@april.biz", json.getList("email").get(0));
         Assertions.assertEquals("Kulas Light", json.getList("address.street").get(0));
     }
+
+    @Test
+    void jsonplaceholderReadAllUsersAndVerifyEmailAddress(){
+        Response response = given()
+                .when()
+                .get(BASE_URL + "/" + USERS)
+                .then()
+                .statusCode(200)
+                .extract()
+                .response();
+
+        JsonPath json = response.jsonPath();
+        List<String> emails = json.getList("email");
+        List<String> plEmails = emails.stream()
+                .filter(email -> email.toLowerCase().endsWith(".pl"))
+                .toList();
+
+        plEmails.forEach(email -> System.out.println("Found .pl email: " + email));
+
+        if (plEmails.isEmpty()) {
+            System.out.println("No email addresses ending in .pl were found.");
+        }
+    }
 }
