@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e2edaf-7d62-4e9c-bb18-3bf7dca722cb" name="Changes" comment="Refactored Posts GET tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderPostsDELETETest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderPostsPOSTTest.java" afterDir="false" />
+    <list default="true" id="c5e2edaf-7d62-4e9c-bb18-3bf7dca722cb" name="Changes" comment="Created Posts DELETE test">
       <change afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderPostsPUTPATCHTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,41 +61,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JsonplaceholderPostsDELETETest.jsonplaceholderDeletePost">
+  <component name="RunManager" selected="JUnit.JsonplaceholderPostsPUTPATCHTest">
     <configuration name="JsonplaceholderPostsDELETETest.jsonplaceholderDeletePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JsonPlaceholderCrudDemo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JsonplaceholderPostsDELETETest" />
       <option name="METHOD_NAME" value="jsonplaceholderDeletePost" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonplaceholderPostsGETTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JsonPlaceholderCrudDemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonplaceholderPostsGETTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonplaceholderPostsGETTest.jsonplaceholderReadOneUserWithPathVariable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JsonPlaceholderCrudDemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonplaceholderPostsGETTest" />
-      <option name="METHOD_NAME" value="jsonplaceholderReadOneUserWithPathVariable" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonplaceholderPostsGETTest.jsonplaceholderReadUsersWithQueryParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JsonPlaceholderCrudDemo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonplaceholderPostsGETTest" />
-      <option name="METHOD_NAME" value="jsonplaceholderReadUsersWithQueryParams" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,13 +82,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JsonplaceholderPostsPUTPATCHTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JsonPlaceholderCrudDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonplaceholderPostsPUTPATCHTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonplaceholderPostsPUTPATCHTest.jsonplaceholderUpdatePostPATCHTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JsonPlaceholderCrudDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonplaceholderPostsPUTPATCHTest" />
+      <option name="METHOD_NAME" value="jsonplaceholderUpdatePostPATCHTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonplaceholderPostsPUTPATCHTest.jsonplaceholderUpdatePostPUTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JsonPlaceholderCrudDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonplaceholderPostsPUTPATCHTest" />
+      <option name="METHOD_NAME" value="jsonplaceholderUpdatePostPUTTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonplaceholderPostsPUTPATCHTest" />
+        <item itemvalue="JUnit.JsonplaceholderPostsPUTPATCHTest.jsonplaceholderUpdatePostPATCHTest" />
+        <item itemvalue="JUnit.JsonplaceholderPostsPUTPATCHTest.jsonplaceholderUpdatePostPUTTest" />
         <item itemvalue="JUnit.JsonplaceholderPostsDELETETest.jsonplaceholderDeletePost" />
         <item itemvalue="JUnit.JsonplaceholderPostsPOSTTest.jsonplaceholderCreateNewPost" />
-        <item itemvalue="JUnit.JsonplaceholderPostsGETTest" />
-        <item itemvalue="JUnit.JsonplaceholderPostsGETTest.jsonplaceholderReadUsersWithQueryParams" />
-        <item itemvalue="JUnit.JsonplaceholderPostsGETTest.jsonplaceholderReadOneUserWithPathVariable" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1744461436009</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Created Posts POST test">
+      <created>1744461716729</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744461716729</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Created Posts DELETE test">
+      <created>1744461781539</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744461781539</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,6 +243,8 @@
     <MESSAGE value="Added delete user test" />
     <MESSAGE value="Added Posts GET tests" />
     <MESSAGE value="Refactored Posts GET tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored Posts GET tests" />
+    <MESSAGE value="Created Posts POST test" />
+    <MESSAGE value="Created Posts DELETE test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Posts DELETE test" />
   </component>
 </project>
