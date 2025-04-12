@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5e2edaf-7d62-4e9c-bb18-3bf7dca722cb" name="Changes" comment="Created update user tests">
+    <list default="true" id="c5e2edaf-7d62-4e9c-bb18-3bf7dca722cb" name="Changes" comment="Updated string json to JSONObject">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JsonplaceholderPUTPATCHTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonplaceholderPUTPATCHTest.java" afterDir="false" />
@@ -106,8 +106,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.JsonplaceholderPUTPATCHTest" />
-        <item itemvalue="JUnit.JsonplaceholderPUTPATCHTest.jsonplaceholderUpdateUserPATCHTest" />
         <item itemvalue="JUnit.JsonplaceholderPUTPATCHTest.jsonplaceholderUpdateUserPUTTest" />
+        <item itemvalue="JUnit.JsonplaceholderPUTPATCHTest.jsonplaceholderUpdateUserPATCHTest" />
         <item itemvalue="JUnit.JsonplaceholderPOSTTest.jsonplaceholderCreateNewUser" />
         <item itemvalue="JUnit.JsonplaceholderGETTwoTest" />
       </list>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744454565036</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated string json to JSONObject">
+      <created>1744455517292</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744455517292</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,6 +188,7 @@
     <MESSAGE value="Created tests with .then() method" />
     <MESSAGE value="Created create new user test" />
     <MESSAGE value="Created update user tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created update user tests" />
+    <MESSAGE value="Updated string json to JSONObject" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated string json to JSONObject" />
   </component>
 </project>

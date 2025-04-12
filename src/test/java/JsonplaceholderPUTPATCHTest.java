@@ -1,6 +1,9 @@
+import com.github.javafaker.Faker;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.json.JSONObject;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
@@ -8,14 +11,36 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class JsonplaceholderPUTPATCHTest {
 
+    private static Faker faker;
+    private String fakeEmail;
+    private String fakeName;
+    private String fakeUserName;
+    private String fakePhone;
+    private String fakeWWW;
+
+    @BeforeAll
+    static void beforeAll(){
+        faker = new Faker();
+    }
+
+    @BeforeEach
+    void beforeEach(){
+        fakeEmail = faker.internet().emailAddress();
+        fakeName = faker.name().name();
+        fakeUserName = faker.name().username();
+        fakePhone = faker.phoneNumber().phoneNumber();
+        fakeWWW = faker.internet().url();
+    }
+
     @Test
     void jsonplaceholderUpdateUserPUTTest(){
+
         JSONObject user = new JSONObject();
-        user.put("name", "Andrzej Update PUT");
-        user.put("username", "AndrzejPUT");
-        user.put("email", "andrzejPUT@arit.pl");
-        user.put("phone", "1-770-736-8031 x56442");
-        user.put("website", "hildegard.org");
+        user.put("name", fakeName);
+        user.put("username", fakeUserName);
+        user.put("email", fakeEmail);
+        user.put("phone", fakePhone);
+        user.put("website", fakeWWW);
 
         JSONObject geo = new JSONObject();
         geo.put("lat", "-37.3159");
@@ -49,16 +74,16 @@ class JsonplaceholderPUTPATCHTest {
 
         JsonPath json = response.jsonPath();
 
-        assertEquals("Andrzej Update PUT", json.get("name"));
-        assertEquals("AndrzejPUT", json.get("username"));
-        assertEquals("andrzejPUT@arit.pl", json.get("email"));
+        assertEquals(fakeName, json.get("name"));
+        assertEquals(fakeUserName, json.get("username"));
+        assertEquals(fakeEmail, json.get("email"));
     }
 
     @Test
     void jsonplaceholderUpdateUserPATCHTest(){
 
         JSONObject userDetails = new JSONObject();
-        userDetails.put("email", "andrzejPATCH@arit.pl");
+        userDetails.put("email", fakeEmail);
 
         Response response = given()
                 .contentType("application/json")
@@ -71,6 +96,6 @@ class JsonplaceholderPUTPATCHTest {
                 .response();
 
         JsonPath json = response.jsonPath();
-        assertEquals("andrzejPATCH@arit.pl", json.get("email"));
+        assertEquals(fakeEmail, json.get("email"));
     }
 }
