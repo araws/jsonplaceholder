@@ -11,3 +11,7 @@ Z
 *src/test/java/JsonplaceholderPOSTTest.java,4\7\4748f3ecacc567c31941a5417ce64358ebe12836
 ^
 .src/test/java/JsonplaceholderPUTPATCHTest.java,d\8\d8706490971cb807a8d31ca04ce1ab2358d255d4
+\
+,src/test/java/JsonplaceholderDELETETest.java,0\a\0a1ddb668f964acdb80f27f345e2cb639c527472
+`
+0src/test/java/JsonplaceholderDELETETestTest.java,e\d\ed81ae487e1a348ce17642e071ac6c00e8f5d16d
